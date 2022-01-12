@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: thai do, Thai MCU, LIC=BUURY-IGIRR-IIL5V-PWTI1-5QI6S-KI0Y8
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+E:\FIle_New\Microcontroller\STM32\2.SENSOR\STM-DHT11\DHT11.uvprojx
+Project File Date:  11/08/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'dht11'
+compiling main.c...
+project\main.c(36): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  		sprintf(humi,"%d",u8Buff[0]);
+project\main.c(45): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+  		sprintf(temp,"%d",u8Buff[2]);
+project\main.c(66): warning:  #1-D: last line of file ends without a newline
+  }
+project\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=4832 RO-data=844 RW-data=60 ZI-data=1932  
+FromELF: creating hex file...
+".\Objects\blinkled_pwm.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\FIle_New\Microcontroller\STM32\2.SENSOR\STM-DHT11\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

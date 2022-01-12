@@ -1,0 +1,330 @@
+Dependencies for Project 'ILI9341_INIT', Target 'ILI9341': (DO NOT MODIFY !)
+F (..\LIBRARY\ILI9341\ILI9341_Driver.c)(0x61A4D838)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\ili9341_driver.o --omf_browse .\objects\ili9341_driver.crf --depend .\objects\ili9341_driver.d)
+I (..\LIBRARY\ILI9341\ILI9341_Driver.h)(0x61A4D681)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+I (..\LIBRARY\ILI9341\ILI9341_Define.h)(0x61A482FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E4C36)
+I (..\USE\delay_sys.h)(0x61A379AC)
+I (..\LIBRARY\ILI9341\ILI9341_Gui.h)(0x61A6415F)
+F (..\LIBRARY\ILI9341\ILI9341_Define.c)(0x61A482FA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\ili9341_define.o --omf_browse .\objects\ili9341_define.crf --depend .\objects\ili9341_define.d)
+I (..\LIBRARY\ILI9341\ILI9341_Define.h)(0x61A482FA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (..\LIBRARY\ILI9341\ILI9341_Gui.c)(0x61A644A1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\ili9341_gui.o --omf_browse .\objects\ili9341_gui.crf --depend .\objects\ili9341_gui.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+I (..\LIBRARY\ILI9341\ILI9341_Gui.h)(0x61A6415F)
+I (..\LIBRARY\ILI9341\ILI9341_Driver.h)(0x61A4D681)
+I (..\LIBRARY\ILI9341\ILI9341_Define.h)(0x61A482FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E4C36)
+I (..\LIBRARY\ILI9341\font.h)(0x61A63FC7)
+I (..\LIBRARY\ILI9341\font_mcu.h)(0x61A5EA57)
+F (.\main.c)(0x61A4A0CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (system.h)(0x61A641BA)
+F (.\system.c)(0x61A644BD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+I (..\LIBRARY\ILI9341\ILI9341_Gui.h)(0x61A6415F)
+I (..\LIBRARY\ILI9341\ILI9341_Driver.h)(0x61A4D681)
+I (..\LIBRARY\ILI9341\ILI9341_Define.h)(0x61A482FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574E4C36)
+I (..\USE\delay_sys.h)(0x61A379AC)
+F (..\USE\delay_sys.c)(0x61A379AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\delay_sys.o --omf_browse .\objects\delay_sys.crf --depend .\objects\delay_sys.d)
+I (..\USE\delay_sys.h)(0x61A379AC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\misc.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_adc.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_dma.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52FABE10)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.c)(0x5617FC0E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617FC0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x56FAB14C)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x4F1F012C)(--cpu Cortex-M3 -g --apcs=interwork -IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x4F1F012C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\LIBRARY\ILI9341 -I ..\MDK -I ..\USE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE-IC:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\RTE_Driver-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h)(0x53BAE050)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\RTE_Components.h)(0x61A363F9)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E4C36)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D259EC6)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h)(0x4F1F012C)
+I (C:\Users\Thai_Electronic\OneDrive\Desktop\ILI9341_INIT\MDK\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FAC0C0)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FABE10)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FABE10)

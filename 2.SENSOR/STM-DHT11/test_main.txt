@@ -1,0 +1,97 @@
+#include "stm32f10x.h"
+#include "mcu-spi.h"
+#include "mcu-rc522.h"
+#include "mcu-usart.h"
+#include "mcu-gpio.h"
+#include "mcu-lcd.h"
+
+uint8_t i,tmp;
+uint8_t status;
+uint8_t Pass[MAX_LEN];
+uint8_t serNum[5];
+char password[MAX_LEN]="thaisalem"; //Max lenght of password is 16 charaters
+char keypass[MAX_LEN];
+int cnt=0;
+uint8_t check,check2;
+uint8_t Key_Card[5]  = {0x16, 0xe7, 0x23, 0xa3, 0x71};
+uint8_t Key_Card2[5] = {0xc4, 0x24, 0x99, 0x22, 0x5b};
+
+void GPIO_ToggleBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+{
+  assert_param(IS_GPIO_ALL_PERIPH(GPIOx));
+  GPIOx->ODR ^= GPIO_Pin;
+}
+
+int main(){
+	USARTx_Init(USART1,9600);
+	MFRC522_Init();
+	pinMode(PC13,OUTPUT);
+	digitalWrite(PC13,SET);
+	Delay_ms(1000);
+	digitalWrite(PC13,RESET);
+	printf("Welcome to RFID...\r\n");
+	Delay_ms(500);
+	while(1){
+		
+		printf("Waiting your Card! \r\n");
+		status = MFRC522_Request(PICC_REQIDL, Pass);	
+		if (status == MI_OK){
+			printf("Find out a card: %x, %x\r\n",Pass[0],Pass[1]);
+		//Chong va cham the, tra ve 5 byte ma the
+			status = MFRC522_Anticoll(Pass);
+			memcpy(serNum, Pass, 5);
+	
+			printf("Your card's number are: %x, %x, %x, %x, %x \r\n",serNum[0], serNum[1], serNum[2], serNum[3],serNum[4]);
+			for(i=0;i<5;i++)
+			{
+				if(Key_Card[i]!=serNum[i]) check = 0;
+				else check = 1;
+				if(Key_Card2[i]!=serNum[i]) check2 = 0;
+				else check2 = 1;
+			}
+		}
+		if(check == 1||check2 ==1)
+		{
+			check = 0;
+			check2 = 0;
+			GPIO_ToggleBits(GPIOC,GPIO_Pin_13);
+			printf("The Card's number is Ok!\r\n");
+			Delay_ms(1000);
+		}
+		Delay_ms(50);	
+	}
+}
+
+
+#ifdef  USE_FULL_ASSERT
+
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t* file, uint32_t line)
+{ 
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+
+  /* Infinite loop */
+  while (1)
+  {
+  }
+}
+
+#endif
+
+/**
+  * @}
+  */
+
+/**
+  * @}
+  */
+
+/******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/
+

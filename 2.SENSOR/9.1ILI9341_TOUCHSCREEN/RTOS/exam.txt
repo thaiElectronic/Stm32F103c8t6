@@ -1,0 +1,149 @@
+#include "includes.h"
+#include "sys_os.h"
+#include "delay_os.h"
+#include "mcu-gpio.h"
+#include "mcu-usart.h"
+
+/*
+	RTOS - Win
+*/
+
+#define START_TASK_PRIO      			10 
+#define START_STK_SIZE  				64
+OS_STK START_TASK_STK[START_STK_SIZE];
+
+void start_task(void *pdata);	
+ 			   
+
+#define LED0_TASK_PRIO       			7 
+#define LED0_STK_SIZE  		    		64
+OS_STK LED0_TASK_STK[LED0_STK_SIZE];
+
+void led0_task(void *pdata);
+
+
+
+#define LED1_TASK_PRIO       			6 
+#define LED1_STK_SIZE  					64
+OS_STK LED1_TASK_STK[LED1_STK_SIZE];
+
+void led1_task(void *pdata);
+
+
+#define USART_TASK_PRIO       			4 
+#define USART_STK_SIZE  					256
+__align(8) static OS_STK USART_TASK_STK[USART_STK_SIZE];//////////////////// 
+
+void usart_task(void *pdata);
+
+#define USART_RX_TASK_PRIO       			5
+#define USART_RX_STK_SIZE  					128
+__align(8) static OS_STK USART_RX_TASK_STK[USART_RX_STK_SIZE];//////////////////// 
+
+void usart_rx_task(void *pdata);
+
+int main(){
+	 NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+	 Delay_OS_Init();
+	 USARTx_Init(USART1,9600);
+	 pinMode(PC13,OUTPUT);
+	 pinMode(PA6,OUTPUT);
+	while(1){
+		OSInit();   
+		OSTaskCreate(start_task,(void *)0,(OS_STK *)&START_TASK_STK[START_STK_SIZE-1],START_TASK_PRIO );
+		OSStart();
+	}
+} 
+void start_task(void *pdata){
+	 
+	 OS_CPU_SR cpu_sr=0;
+	  pdata = pdata; 
+	 	
+	 OS_ENTER_CRITICAL();//	
+	 
+	 OSTaskCreate(led0_task,(void *)0,(OS_STK *)&LED0_TASK_STK[LED0_STK_SIZE-1],LED0_TASK_PRIO );
+	 OSTaskCreate(led1_task,(void *)0,(OS_STK *)&LED1_TASK_STK[LED1_STK_SIZE-1],LED1_TASK_PRIO );
+	 OSTaskCreate(usart_task,(void *)0,(OS_STK *)&USART_TASK_STK[USART_STK_SIZE-1],USART_TASK_PRIO );
+   OSTaskCreate(usart_rx_task,(void *)0,(OS_STK *)&USART_RX_TASK_STK[USART_RX_STK_SIZE-1],USART_RX_TASK_PRIO );
+	 
+	 OSTaskSuspend(START_TASK_PRIO);	
+	 OS_EXIT_CRITICAL();//
+	 
+}
+
+void led0_task(void *pdata)
+{	  
+	while(1)
+	{
+		digitalWrite(PA6,LOW);
+		Delay_OS_ms(1000);
+		digitalWrite(PA6,HIGH);
+		Delay_OS_ms(1000);
+	};
+}
+
+
+void led1_task(void *pdata)
+{	  
+	while(1)
+	{
+		digitalWrite(PC13,LOW);
+		Delay_OS_ms(300);
+		digitalWrite(PC13,HIGH);
+		Delay_OS_ms(200);
+	};
+}
+
+void usart_task(void *pdata){
+	while(1){
+		printf("Thai MCU\n");
+		Delay_OS_ms(100);
+	}
+}
+
+
+
+int i = 0;
+char Arr[50];
+volatile int Flag = 0;
+char temp;
+void usart_rx_task(void *pdata){
+	int vri_Stt = 0;
+//extern	char	vrc_Res[100];
+	while(1){
+		if( Flag == 1){
+			Flag = 0;
+			printf("NHAN OK!\n");
+			
+		}Delay_OS_ms(50);
+	}
+}
+
+
+
+void USART1_IRQHandler(){
+
+	#if SYSTEM_SUPPORT_OS 		//
+	OSIntEnter();    
+	#endif
+	
+	
+	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET){
+		 temp = USART_ReceiveData(USART1);
+		if(temp == 13){ // ki hieu thong bao ket thuc chuoi
+			Arr[i] = NULL;
+			i = 0;
+			Flag = 1;
+		}
+		else { //temp !=     13 <=> qua trinh nhan ki tu chua ket thuc
+			Arr[i] = temp;
+			i++;
+			USART_SendData(USART1,temp);
+		}
+	}
+	
+	#if SYSTEM_SUPPORT_OS 	//如果SYSTEM_SUPPORT_OS为真，则需要支持OS.
+	OSIntExit();  											 
+	#endif
+	
+}

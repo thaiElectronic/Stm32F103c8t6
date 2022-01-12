@@ -1,0 +1,53 @@
+#include "stm32f10x.h"      
+#include "mcu-tim.h"
+#include "mcu-gpio.h"
+#include "mcu-usart.h"
+
+void SPI_Master(){
+	
+	SPI_InitTypeDef spi;
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_SPI1, ENABLE);
+	
+	pinMode(PA4,OUTPUT);   // CS
+	pinMode(PA5,AF_PP);		 // CLK
+	pinMode(PA6,INPUT);		 // miso
+	pinMode(PA7,AF_PP);		 // mosi
+	
+	spi.SPI_Direction = SPI_Direction_2Lines_FullDuplex;
+	spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_8;
+	spi.SPI_CPHA = SPI_CPHA_2Edge;
+	spi.SPI_CPOL = SPI_CPOL_Low;
+	spi.SPI_DataSize = SPI_DataSize_8b;
+	spi.SPI_FirstBit = SPI_FirstBit_LSB;
+	spi.SPI_Mode = SPI_Mode_Master;
+	spi.SPI_NSS = SPI_NSS_Soft;
+	SPI_Init(SPI1, &spi);
+	SPI_Cmd(SPI1, ENABLE);
+}
+
+void SPI_Slave(){
+	SPI_InitTypeDef spi;
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_SPI2, ENABLE);
+	
+	pinMode(PB12,OUTPUT);    // CS
+	pinMode(PB13,INPUT);		 // CLK
+	pinMode(PB14,AF_PP);		 // miso
+	pinMode(PB15,INPUT);		 // mosi
+	
+	spi.SPI_Direction = SPI_Direction_2Lines_FullDuplex;
+	spi.SPI_BaudRatePrescaler = SPI_BaudRatePrescaler_4;
+	spi.SPI_CPHA = SPI_CPHA_2Edge;
+	spi.SPI_CPOL = SPI_CPOL_Low;
+	spi.SPI_DataSize = SPI_DataSize_8b;
+	spi.SPI_FirstBit = SPI_FirstBit_LSB;
+	spi.SPI_Mode = SPI_Mode_Slave;
+	spi.SPI_NSS = SPI_NSS_Soft;
+	SPI_Init(SPI1, &spi);
+	SPI_Cmd(SPI1, ENABLE);
+}
+
+int main(){
+	while(1){		
+
+	}
+}

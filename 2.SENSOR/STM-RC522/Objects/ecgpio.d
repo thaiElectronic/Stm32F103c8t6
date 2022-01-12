@@ -1,0 +1,32 @@
+.\objects\ecgpio.o: user lib\GPIO\ecgpio.c
+.\objects\ecgpio.o: user lib\GPIO\ecgpio.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\ecgpio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\ecgpio.o: .\lib\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\ecgpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ecgpio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+.\objects\ecgpio.o: .\project\stm32f10x_conf.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\objects\ecgpio.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\objects\ecgpio.o: .\lib\STM32F10x_StdPeriph_Driver\inc\misc.h

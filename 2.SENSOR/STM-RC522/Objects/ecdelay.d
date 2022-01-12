@@ -1,0 +1,32 @@
+.\objects\ecdelay.o: user lib\Delay\ecdelay.c
+.\objects\ecdelay.o: user lib\Delay\ecdelay.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\objects\ecdelay.o: C:\Keil_v521\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\ecdelay.o: .\lib\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\ecdelay.o: C:\Keil_v521\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ecdelay.o: C:\Keil_v521\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+.\objects\ecdelay.o: .\project\stm32f10x_conf.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\objects\ecdelay.o: C:\Keil_v521\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\objects\ecdelay.o: .\lib\STM32F10x_StdPeriph_Driver\inc\misc.h

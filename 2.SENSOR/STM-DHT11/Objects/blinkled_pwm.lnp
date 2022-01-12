@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\core_cm3.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\misc.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_adc.o"
+".\objects\stm32f10x_usart.o"
+".\objects\stm32f10x_dma.o"
+".\objects\stm32f10x_spi.o"
+".\objects\main.o"
+".\objects\stm32f10x_it.o"
+".\objects\system_stm32f10x.o"
+".\objects\mcu-gpio.o"
+".\objects\mcu-tim.o"
+".\objects\mcu-usart.o"
+".\objects\mcu-spi.o"
+".\objects\mcu-lcd.o"
+".\objects\mcu-adc.o"
+".\objects\mcu-dht11.o"
+".\objects\mcu-delay.o"
+--strict --scatter ".\Objects\blinkled_pwm.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\blinkled_pwm.map" -o .\Objects\blinkled_pwm.axf
