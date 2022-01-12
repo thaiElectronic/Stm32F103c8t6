@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\objects\ili9341_driver.o"
+".\objects\ili9341_define.o"
+".\objects\ili9341_gui.o"
+".\objects\touchscreen.o"
+".\objects\main.o"
+".\objects\system.o"
+".\objects\delay_sys.o"
+".\objects\touch_myone.o"
+".\objects\misc.o"
+".\objects\stm32f10x_adc.o"
+".\objects\stm32f10x_dma.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\ILI9341_INIT.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ILI9341_INIT.map" -o .\Objects\ILI9341_INIT.axf
